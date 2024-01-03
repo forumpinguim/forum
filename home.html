@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Página Principal</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+   <link rel="shortcut icon" href="https://www.favicon.cc/logo3d/560683.png" type="image/x-icon">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">Educa.</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="Pesquisar cursos..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="images/pic-1.jpg" class="image" alt="">
+         <h3 class="name">Abaddon</h3>
+         <p class="role">Estudante</p>
+         <a href="profile.html" class="btn">Visualizar perfil</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">login</a>
+            <a href="register.html" class="option-btn">registrar</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="https://animesher.com/orig/1/118/1188/11880/animesher.com_mine-icons-circle-icons-1188022.png" class="image" alt="">
+      <h3 class="name">Abaddon</h3>
+      <p class="role">Estudante</p>
+      <a href="profile.html" class="btn">Ver perfil</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>courses</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>teachers</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
+   </nav>
+
+</div>
+
+<section class="home-grid">
+
+   <h1 class="heading">Opções rápidas</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3 class="title">Utilitários</h3>
+         <p class="likes">Google Keeps</p>
+         <a href="https://keep.google.com/u/3/#home" class="inline-btn">Cronograma</a>
+         <p class="likes">Roadmap</p>
+         <a href="https://roadmap.sh/frontend" class="inline-btn">Caminhos</a>
+         <p class="likes">Google Agenda</p>
+         <a href="https://calendar.google.com/calendar/u/3/r?pli=1" class="inline-btn">Importante</a>
+      </div>
+
+      <div class="box">
+         <h3 class="title">Melhores categorias</h3>
+         <div class="flex">
+            <a href="categorias/frontend.html"><i class="fas fa-code"></i><span>front end</span></a>
+            <a href="categorias/backend.html"><i class="fa-solid fa-database"></i><span>back end</span></a>
+            <a href="#"><i class="fas fa-chart-simple"></i><span>negócios</span></a>
+            <a href="categorias/design.html"><i class="fas fa-pen"></i><span>design</span></a>
+            <a href="#"><i class="fas fa-chart-line"></i><span>marketing</span></a>
+            <a href="categorias/engenhariasocial.html"><i class="fa-solid fa-screwdriver-wrench"></i><span>eng social</span></a>
+            <a href="categorias/livros.html"><i class="fa-solid fa-book"></i><span>livros</span></a>
+            <a href="categorias/idiomas.html"><i class="fa-solid fa-language"></i><span>idiomas</span></a>
+            <a href="categorias/hacking.html"><i class="fa-solid fa-hat-cowboy"></i><span>hacking</span></a>
+            <a href="categorias/so.html"><i class="fas fa-cog"></i><span>so</span></a>
+            <a href="categorias/redes.html"><i class="fa-solid fa-globe"></i><span>redes</span></a>
+            
+         </div>
+      </div>
+
+      <div class="box">
+         <h3 class="title">Tópicos populares</h3>
+         <div class="flex">
+            <a href="#"><i class="fab fa-html5"></i><span>HTML</span></a>
+            <a href="#"><i class="fab fa-css3"></i><span>CSS</span></a>
+            <a href="#"><i class="fab fa-js"></i><span>javascript</span></a>
+            <a href="#"><i class="fab fa-react"></i><span>react</span></a>
+            <a href="#"><i class="fa-solid fa-snowflake"></i><span>pоссия</span></a>
+            <a href="#"><i class="fa-solid fa-wind"></i><span>tailwind</span></a>
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i><span>sherlock</span></a>
+            <a href="#"><i class="fa-brands fa-linux"></i><span>linux</span></a>
+            <a href="#"><i class="fa-solid fa-palette"></i><span>gimp</span></a>
+         </div>
+      </div>
+
+      <div class="box">
+         <h3 class="title">Professores</h3>
+         <p class="tutor">Este tópico tem como finalidade reunir vários professores em um só lugar, facilitando lembrar e ver os conteúdos gratuitos de cada um</p>
+         <a href="teachers.html" class="inline-btn">Visualizar</a>
+      </div>
+
+   </div>
+
+</section>
+
+
+
+<section class="courses">
+
+   <h1 class="heading">Meus cursos</h1>
+
+   <div class="box-container">
+      <!-- INÍCIO DO CURSO 1-->
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-2.jpg" alt="">
+            <div class="info">
+               <h3>G. Guanabara</h3>
+               <span>03-01-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="https://www.cupcom.com.br/wp-content/uploads/2020/03/site-html-css-1.jpg" alt="">
+            <span>5 modulos</span>
+         </div>
+         <h3 class="title">HTML5 e CSS5</h3>
+         <a href="playlist.html" class="inline-btn">Visualizar playlist</a>
+      </div>
+      <!-- FIM DO CURSO 1-->
+      <div class="box">
+         <div class="tutor">
+            <img src="https://assets.hgbrasil.com/finance/companies/big/cisco-systems-inc.png" alt="">
+            <div class="info">
+               <h3>Cisco</h3>
+               <span>03-01-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="https://downloadcursos.top/wp-content/uploads/2020/11/ccna-res.jpg" alt="">
+            <span>17 módulos</span>
+         </div>
+         <h3 class="title">Fundamentos de Redes</h3>
+         <a href="https://lms.netacad.com/course/view.php?id=2118191" class="inline-btn">Visualizar curso</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-2.jpg" alt="">
+            <div class="info">
+               <h3>G. Guanabara</h3>
+               <span>03-01-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="https://i.ytimg.com/vi/Ig4QZNpVZYs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDPxT2RweIreZc72ea-46atrGhdcw" alt="">
+            <span>17 vídeos</span>
+         </div>
+         <h3 class="title">Lógica e Algoritmos</h3>
+         <a href="https://www.youtube.com/watch?v=8mei6uVttho&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV" class="inline-btn">Visualizar playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="https://lablab.ai/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Flablab-static-eu%2Fimages%252Fusers%252Fclb3bm8ig00dme30stdl4xn93_tk13kv6_picture.jpg&w=256&q=75" alt="">
+            <div class="info">
+               <h3>Unknow</h3>
+               <span>03-01-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="https://ead.unimar.br/wp-content/uploads/2022/06/Algoritmos-e-Logica-de-Programacao.jpg" alt="">
+            <span>13 módulos</span>
+         </div>
+         <h3 class="title">Lóg. e Algoritmo Programação</h3>
+         <a href="https://web.telegram.org/k/#-1445310569" class="inline-btn">Visualizar playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="https://yt3.googleusercontent.com/ytc/AIf8zZROrxKEY7muUqxYJVaDevx-Sd29L7OX9Wgvp3TgdQ=s900-c-k-c0x00ffffff-no-rj" alt="">
+            <div class="info">
+               <h3>Mairo Vergara</h3>
+               <span>03-01-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="https://lh3.googleusercontent.com/pqpuNQuDj0Y878DZlcd_nVUgiy2V2pew3crEoFZgUTum9uInQZC57tavprU2FAeLJ8GggFkYeH1JeWPwtdmx8g=s0" alt="">
+            <span>331 videos</span>
+         </div>
+         <h3 class="title">Mairo Vergara - Inglês</h3>
+         <a href="https://web.telegram.org/k/#-1871731511" class="inline-btn">Visualizar playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="https://pbs.twimg.com/media/EOA8o9TX4AEF72P.jpg" alt="">
+            <div class="info">
+               <h3>Thiago Melo</h3>
+               <span>03-01-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="https://www.politize.com.br/wp-content/uploads/2022/03/pexels-photo-8285167-scaled.jpg.webp" alt="">
+            <span>124 videos</span>
+         </div>
+         <h3 class="title">Fluência Incondicional</h3>
+         <a href="https://web.telegram.org/k/#-1804786383" class="inline-btn">Visualizar playlist</a>
+      </div>
+
+   </div>
+
+   <div class="more-btn">
+      <a href="courses.html" class="inline-option-btn">Visualizar outros cursos</a>
+   </div>
+
+</section>
+
+<footer class="footer">
+
+   &copy; copyright @ 2022 by <span>mr. web designer and abbadon</span> | all rights reserved!
+
+</footer>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>
