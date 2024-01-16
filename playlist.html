@@ -4,13 +4,15 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Playlist</title>
+   <title>Apps/Jogos</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
+
+   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
 </head>
 <body>
@@ -19,10 +21,10 @@
    
    <section class="flex">
 
-      <a href="index.html" class="logo">Educa.</a>
+      <a href="index.html" class="logo">Fórum Pinguim</a>
 
       <form action="search.html" method="post" class="search-form">
-         <input type="text" name="search_box" required placeholder="Pesquisar cursos..." maxlength="100">
+         <input type="text" name="search_box" required placeholder="Pesquisar apps/jogos..." maxlength="100">
          <button type="submit" class="fas fa-search"></button>
       </form>
 
@@ -32,15 +34,15 @@
          <div id="user-btn" class="fas fa-user"></div>
          <div id="toggle-btn" class="fas fa-sun"></div>
       </div>
-
       <div class="profile">
-         <img src="images/pic-1.jpg" class="image" alt="">
-         <h3 class="name">Abbadon</h3>
-         <p class="role">Estudante</p>
+         <img src="images/favicon.png" class="image" alt="">
+         <h3 class="name">Pinguim</h3>
+         <p class="role">Anonymous</p>
          <a href="profile.html" class="btn">Visualizar perfil</a>
          <div class="flex-btn">
-            <a href="login.html" class="option-btn">login</a>
-            <a href="register.html" class="option-btn">register</a>
+            <!-- LOGIN QUE NÃO VOU FAZER POR ENQUANTO -->
+            <!-- <a href="login.html" class="option-btn">login</a>
+            <a href="register.html" class="option-btn">registrar</a> -->
          </div>
       </div>
 
@@ -55,52 +57,53 @@
    </div>
 
    <div class="profile">
-      <img src="images/pic-1.jpg" class="image" alt="">
-      <h3 class="name">Abbadon</h3>
-      <p class="role">Estudante</p>
-      <a href="profile.html" class="btn">Visualizar perfil</a>
+      <img src="images/favicon.png" class="image" alt="">
+      <h3 class="name">Pinguim</h3>
+      <p class="role">Anonymous</p>
+      <a href="profile.html" class="btn">Ver perfil</a>
    </div>
 
+
    <nav class="navbar">
-      <a href="index.html"><i class="fas fa-home"></i><span>Principal</span></a>
-      <a href="about.html"><i class="fas fa-question"></i><span>Sobre</span></a>
-      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Cursos</span></a>
-      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Professores</span></a>
-      <a href="contact.html"><i class="fas fa-headset"></i><span>Contate</span></a>
+      <a href="index.html"><i class="fas fa-home"></i><span>Página Principal</span></a>
+      <a href="about.html"><i class="fa-brands fa-app-store-ios"></i><span>Apps</span></a>
+      <a href="about1.html"><i class="fa-solid fa-gamepad"></i><span>Jogos</span></a>
+      <a href="https://forumpinguim.github.io/"><i class="fas fa-headset"></i><span>Contate-nos</span></a>
    </nav>
 
 </div>
 
 <section class="playlist-details">
 
-   <h1 class="heading">Detalhes da playlist</h1>
+   <h1 class="heading">Detalhes do app/jogo</h1>
 
    <div class="row">
 
       <div class="column">
-         <form action="" method="post" class="save-playlist">
+         <!--
+            <form action="" method="post" class="save-playlist">
             <button type="submit"><i class="far fa-bookmark"></i> <span>Salvar playlist</span></button>
          </form>
-   
+         -->
+         
          <div class="thumb">
-            <img src="https://www.cupcom.com.br/wp-content/uploads/2020/03/site-html-css-1.jpg" alt="">
-            <span>5 modulos</span>
+            <img src="https://wallpapercave.com/wp/wp4278745.png" alt="">
+            <span>Premium</span>
          </div>
       </div>
       <div class="column">
          <div class="tutor">
-            <img src="images/pic-2.jpg" alt="">
+            <img src="https://proxy.olhardigital.com.br/wp-content/uploads/2022/12/duolingo-idiomas-relatorio-global-frase-do-ano-1024x768.jpg" alt="">
             <div>
-               <h3>Gustavo Guanabara</h3>
-               <span>21-10-2021</span>
+               <h3>Duolingo</h3>
+               <span>Downloads | 8,140,986</span>
             </div>
          </div>
    
          <div class="details">
-            <h3>HTML5 e CSS5</h3>
-            <p>Usando HTML E CSS, o Professor Gustavo Guanabara criou um conjunto de vídeos, exercícios, desafios e um material de apoio em forma de e-book com 30 capítulos ao todo. </p>
-            <a href="teacher_profile.html" class="inline-btn">Visualizar perfil</a>
-            <a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" class="inline-btn">Visualizar playlist</a>
+            <h3>Duolingo Premium</h3>
+            <p>Duolingo é uma aplicação desenhada para o ajudar a aprender línguas facilmente e confortavelmente, para que ao fazê-lo não pareça que está a estudar, mas em vez disso, apenas se divertindo com um novo jogo ou app no seu dispositivo Android.</p>
+            <a href="https://seulink.digital/du0lingo" class="inline-btn">CLIQUE AQUI PARA BAIXAR</a>
          </div>
       </div>
    </div>
@@ -109,32 +112,20 @@
 
 <section class="playlist-videos">
 
-   <h1 class="heading">Módulos</h1>
+   <h1 class="heading">Semelhantes (Quando clicar, vai direto para o download)</h1>
 
    <div class="box-container">
 
-      <a class="box" href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n">
+      <a class="box" href="https://seulink.digital/busuu">
          <i class="fas fa-play"></i>
-         <img src="https://i.ytimg.com/vi/jgQjeqGRdgA/maxresdefault.jpg" alt="">
-         <h3>Módulo 1</h3>
+         <img src="https://cdn.neowin.com/news/images/uploaded/2020/07/1595320043_product_41710_product_shots1_story.jpg" alt="">
+         <h3>Busuu</h3>
       </a>
 
-      <a class="box" href="https://www.youtube.com/watch?v=vPNIAJ9B4hg&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s">
+      <a class="box" href="https://seulink.digital/mosalingua">
          <i class="fas fa-play"></i>
-         <img src="https://i.ytimg.com/vi/vPNIAJ9B4hg/maxresdefault.jpg" alt="">
-         <h3>Módulo 2</h3>
-      </a>
-
-      <a class="box" href="https://www.youtube.com/watch?v=ofFgnDtn_1c&list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ">
-         <i class="fas fa-play"></i>
-         <img src="https://i.ytimg.com/vi/ofFgnDtn_1c/maxresdefault.jpg" alt="">
-         <h3>Módulo 3</h3>
-      </a>
-
-      <a class="box" href="https://www.youtube.com/watch?v=zHKHMmEG9vE&list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT">
-         <i class="fas fa-play"></i>
-         <img src="https://i.ytimg.com/vi/zHKHMmEG9vE/mqdefault.jpg" alt="">
-         <h3>Módulo 4</h3>
+         <img src="https://mrwallpaper.com/images/hd/russia-two-headed-eagle-szlxprrgshzh019b.jpg" alt="">
+         <h3>Mosalingua Russian</h3>
       </a>
 
    </div>
@@ -155,7 +146,7 @@
 
 <footer class="footer">
 
-   &copy; copyright @ 2022 by <span>mr. web designer and abbadon</span> | all rights reserved!
+   &copy; copyright @ 2024 by <span>fórum pinguim</span> | all rights reserved!
 
 </footer>
 
